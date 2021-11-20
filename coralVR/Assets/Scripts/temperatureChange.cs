@@ -18,14 +18,14 @@ public class temperatureChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (beginState = true && currentTemperature > 10.0f)
-        {
-            currentTemperature -= 0.1f;
-        }
-
-        if (beginState = false && currentTemperature < 35.0f)
+        if (beginState = true && currentTemperature < 35.0f)
         {
             currentTemperature += 0.1f;
+        }
+
+        if (beginState = false && currentTemperature > 10.0f)
+        {
+            currentTemperature -= 0.1f;
         }
 
         // currentTemperature;
