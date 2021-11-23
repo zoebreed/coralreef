@@ -107,6 +107,8 @@ public class bleachCubemap : MonoBehaviour
             if (beginState == true && endState == false)
             {
                 Bleaching();
+                
+                // if at end state
                 if (r >= rEnd)
                 {
                     r = rEnd;
@@ -119,6 +121,8 @@ public class bleachCubemap : MonoBehaviour
             if (beginState == false && endState == true)
             {
                 Healing();
+
+                // if at begin state
                 if (r <= rBegin)
                 {
                     r = rBegin;

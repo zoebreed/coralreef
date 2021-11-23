@@ -24,13 +24,7 @@ public class bleachShiny : MonoBehaviour
     {
         _renderCoral = coral.GetComponent<Renderer>();
         shineBegin = _renderCoral.material.GetFloat("_Shininess");
-        //Begin();
     }
-
-    //void Begin()
-    //{
-    //    shineBegin = _renderCoral.material.GetFloat("_Shininess");
-    //}
 
     void Bleaching()
     // Bleaching event. Shininess decreases.

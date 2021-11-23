@@ -62272,14 +62272,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301640597}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3bab60b9bd77f424381d129d77409a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   temperatureText: {fileID: 1301640599}
-  currentTemperature: 25
-  beginState: 1
+  beginTemperature: 22.8
+  endTemperature: 29.7
+  maxTime: 10
 --- !u!4 &1302717738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3139398323952633830, guid: 91afe8041af461f49ae168de0f19e67b,
