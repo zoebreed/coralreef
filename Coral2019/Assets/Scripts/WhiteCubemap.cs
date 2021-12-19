@@ -15,16 +15,16 @@ public class WhiteCubemap : MonoBehaviour
     Vector4 beginColor;
 
     // Values of RGB of end state
-    [Range(0, 3)] public float rEnd;
-    [Range(0, 3)] public float gEnd;
-    [Range(0, 3)] public float bEnd;
+    [Range(0, 3)] public float rEnd = 1;
+    [Range(0, 3)] public float gEnd = 1;
+    [Range(0, 3)] public float bEnd = 1;
 
     // Start is called before the first frame update
     void Start()
     {
         _renderCoral = GetComponent<Renderer>();
         beginColor = _renderCoral.material.GetVector("_CubemapColor");
-        newColor = beginColor;
+        _renderCoral.material.SetColor("_CubemapColor", beginColor);
     }
 
     // Update is called once per frame

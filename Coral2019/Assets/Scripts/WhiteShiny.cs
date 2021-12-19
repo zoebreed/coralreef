@@ -12,13 +12,14 @@ public class WhiteShiny : MonoBehaviour
     int count = 0;
 
     float shineBegin;
-    public float shineEnd;
+    float shineEnd = 0.7f;
 
     // Start is called before the first frame update
     void Start()
     {
         _renderCoral = GetComponent<Renderer>();
         shineBegin = _renderCoral.material.GetFloat("_Shininess");
+        _renderCoral.material.SetFloat("_Shininess", shineBegin);
     }
 
     // Update is called once per frame

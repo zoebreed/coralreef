@@ -24,7 +24,7 @@ public class WhiteSpecular : MonoBehaviour
     {
         _renderCoral = GetComponent<Renderer>();
         beginColor = _renderCoral.material.GetVector("_SpecColor");
-        newColor = beginColor;
+        _renderCoral.material.SetColor("_SpecColor", beginColor);
     }
 
     // Update is called once per frame
