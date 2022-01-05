@@ -11,7 +11,7 @@ All of the Unity code is located in the folder named: "Coral2019".
 https://github.com/zoebreed/coralreef
 
 ### Abstract
-The loss of corals in the Great Barrief Reef due to climate change has major consequences for marine and human life on Earth. Communicating the significance of this issue is challenging, as most people are not directly exposed to the situation. Using Virtual Reality, we aimed to create an underwater environment where students can experience a coral bleaching event and learn more factual information about the effects of climate change on the coral reefs. Two user evaluations were conducted in order to evaluate the usability of the program. From the results of these evaluations, we can conclude that the system has educational value and if further developed may help inform students of the devastating effects of climate change on the coral reefs.
+The loss of corals in the Great Barrief Reef due to climate change has major consequences for marine and human life on Earth. Communicating the significance of this issue can be challenging, as most people are not directly exposed to the situation. Using Virtual Reality, we aimed to create an underwater environment where students can experience a coral bleaching event and learn more factual information about the effects of climate change on the coral reefs. Two user evaluations were conducted in order to evaluate the usability of the program. From the results of these evaluations, we can conclude that the system has educational value and if further developed may help inform students of the devastating effects of climate change on the coral reefs.
 
 #### Packages used in this project:
 Underwater FX, Rivermill studio (2021), 
